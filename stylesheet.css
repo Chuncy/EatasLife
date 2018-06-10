@@ -1,0 +1,53 @@
+html{
+  background-color:rgba(252,173,25,0.5);
+  width:100%;
+}
+
+body{
+  text-align: center;
+}
+
+span{
+  color:red;
+}
+
+.title{
+  border-bottom:2px;
+  font-size:90px;
+}
+
+.subtitle{
+  font-size:35px;
+}
+
+.recomend{
+  font-size:30px;
+}
+.contents li{
+  list-style: none;
+  font-size:20px;
+}
+
+li{
+  line-height: 40px;
+}
+
+.start {
+   height:50px;
+   width:200px;
+   display: inline-block;
+   padding: 0.5em 1em;
+   text-decoration: none;
+   font-size:20px;
+   background-color:#668ad8;
+   color: #FFF;
+   border-bottom: solid 4px #627295;
+   border-radius: 10px;
+}
+
+.start:active{
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
